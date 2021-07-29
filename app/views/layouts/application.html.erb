@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>PlusApp</title>
+    <html lang="ja">
+    <meta charset="utf-8">
+    <title>きっずぷらす</title>
+    <meta name="description" content="子供が計算とパソコンを好きになります">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +14,23 @@
   </head>
 
   <body>
+    <header>
+      <div class="wrapper">
+        <a class="logo" href="#hero">きっずぷらす</a>
+        <nav>
+          <button class="btn-menu">めにゅー</button>
+          <ul class="main-nav">
+            <li><a href="#addition">たしざん</a></li>
+            <li><a href="#subtraction">ひきざん</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <%= yield %>
+    <footer>
+      <p>
+        Copyright きっずぷらす2021.
+      </p>
+    </footer>
   </body>
 </html>
