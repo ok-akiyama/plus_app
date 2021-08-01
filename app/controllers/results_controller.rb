@@ -8,4 +8,15 @@ class ResultsController < ApplicationController
     @result = Result.new
   end
 
+  def create
+    Result.create(result_params)
+  end
+
+  private
+  def result_params
+    params.require(:result).permit(:name, :image, :text)
+  end
+  
 end
+
+
