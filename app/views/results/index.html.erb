@@ -78,7 +78,7 @@
                 child11.jpg 800w"
         alt="Study Child11">
   </a>
-  <a href="child12.jpg" data-aos="fade-up">
+  <a href="/" data-aos="fade-up">
       <img class="grid-item"
         src="child12.jpg"
         srcset="child12.jpg 400w,
@@ -86,16 +86,10 @@
         alt="Study Child12">
   </a>
   <% @results.each do |result| %>
-    <a href="result.image" data-aos="fade-up">
-      <img class="grid-item"
-        src="result.image"
-        srcset="result.image 400v,
-                result.image 800v"
-        alt="Result Image">
-        <p class="result-text"><%= result.text %></p>
-        <span class="result-name">
-          <%= result.name %>
-        </span>
+    <%= link_to image_tag result.image, class:"grid-item",
+        src:"result.image 400v,
+             result.image 800v",
+        alt:"Result Image", action: "show" %>
     </a>
     <% end %>
   </div>

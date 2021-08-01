@@ -36,7 +36,6 @@ ActiveRecord::Schema.define(version: 2021_08_01_074437) do
   create_table "results", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name"
     t.string "text"
-    t.text "image"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
