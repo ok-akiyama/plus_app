@@ -144,7 +144,7 @@ p{
   padding: 40px 0px;
   font-size: xxx-large;
   color:orange;
-  animation: recommend-animation 2s 3;
+  animation: recommend-animation 2s 2;
 }
 
 .btn{
@@ -180,4 +180,12 @@ p{
 
 .fa-pencil-alt {
   width: 70%;
+}
+
+.result-text{
+  text-decoration: none;
+}
+
+.result-name{
+  text-decoration: none;
 }

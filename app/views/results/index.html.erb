@@ -85,14 +85,18 @@
                 child12.jpg 800w"
         alt="Study Child12">
   </a>
-  <div class="contents-posts">
-    <% @results.each do |result| %>
-      <div class="contents-post" style="background-image: url(<%= result.image %>);">
-        <p><%= result.text %></p>
-        <span class="name">
+  <% @results.each do |result| %>
+    <a href="result.image" data-aos="fade-up">
+      <img class="grid-item"
+        src="result.image"
+        srcset="result.image 400v,
+                result.image 800v"
+        alt="Result Image">
+        <p class="result-text"><%= result.text %></p>
+        <span class="result-name">
           <%= result.name %>
         </span>
-      </div>
+    </a>
     <% end %>
   </div>
 </main>
