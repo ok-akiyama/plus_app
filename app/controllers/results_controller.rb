@@ -1,7 +1,7 @@
 class ResultsController < ApplicationController
 
   def index
-    @result = Result.all
+    @results = Result.all
   end
 
   def new
@@ -16,7 +16,7 @@ class ResultsController < ApplicationController
   def result_params
     params.require(:result).permit(:name, :image, :text)
   end
-  
+
 end
 
 

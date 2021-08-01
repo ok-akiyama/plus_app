@@ -85,4 +85,19 @@
                 child12.jpg 800w"
         alt="Study Child12">
   </a>
+  <div class="contents-posts">
+    <% @results.each do |result| %>
+      <div class="contents-post" style="background-image: url(<%= result.image %>);">
+        <p><%= result.text %></p>
+        <span class="name">
+          <%= result.name %>
+        </span>
+      </div>
+    <% end %>
+  </div>
 </main>
+
+<%= link_to(new_result_path, class: 'purchase-btn') do %>
+  <span class='purchase-btn-text'>とうこう</span>
+  <i class="fas fa-pencil-alt fa-2x"></i>
+<% end %>
