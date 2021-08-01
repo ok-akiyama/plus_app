@@ -1,0 +1,9 @@
+<div class="contents">
+    <h3 class="contents-title">みんなにみせる</h3>
+    <%= form_with(model: @result, class:"contents-form",local: true) do |form| %>
+      <%= form.text_field :name, placeholder: "にっくねーむをいててね", class:"contents-name" %>
+      <%= form.file_field :image, id:"item-image", class:"contents-image" %>
+      <%= form.text_area :text, placeholder: "ことばをいれてね", rows: "10", class:"contents-text" %>
+      <%= form.submit "ぜんぶいれたらおしてね", class:"contents-btn" %>
+    <% end %>
+</div>

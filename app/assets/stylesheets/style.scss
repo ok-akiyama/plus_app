@@ -1,5 +1,6 @@
 *{
   font-family: 'M PLUS 1p', sans-serif;
+  box-sizing: border-box;
 }
 
 body{
@@ -78,13 +79,57 @@ footer{
   object-fit: cover;
   border-radius: 10%;
   object-position: center;
-  filter: brightness(50%) drop-shadow(5px 10px 3px #856845);
+  filter: brightness(80%) drop-shadow(5px 10px 3px #856845);
   transition: .3s;
 }
 
 .grid-item:hover{
-  filter: brightness(100%) drop-shadow(5px 10px 3px #856845);
+  filter: brightness(120%) drop-shadow(5px 10px 3px #856845);
   transform: scale(1.3);
   z-index: 3;
   position: relative;
+}
+
+.contents{
+  width: 960px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.contents-title{
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.contents-form{
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,
+form textarea {
+  width: 80%;
+  margin: 5px 0 15px;
+  padding: 10px;
+  border: 1px solid #D8D8D8;
+  border-radius: 5px;
+  box-shadow: 5px 10px 3px #856845 inset;
+}
+
+form input[type="submit"] {
+  background-color: #FC7EA0;
+  border-radius: 20px;
+  color: #fff;
+  border: 0;
+  box-shadow: 5px 10px 3px #856845;
+}
+
+form input[type="submit"]:hover {
+  background-color: #FC7EA0;
+  box-shadow: 5px 10px 3px #856845;
 }

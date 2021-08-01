@@ -5,7 +5,7 @@ class ResultsController < ApplicationController
   end
 
   def new
-    @tweet = Tweet.new
+    @result = Result.new
   end
-  
+
 end
