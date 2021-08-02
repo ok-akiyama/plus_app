@@ -196,3 +196,18 @@ p{
 .result-name{
   text-decoration: none;
 }
+
+.show-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.show-image{
+  object-fit: cover;
+}
+
+.show-list{
+  list-style: none;
+}

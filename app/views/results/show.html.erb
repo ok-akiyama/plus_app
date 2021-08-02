@@ -1,0 +1,17 @@
+<div class="show-contents">
+  <div class="show-content" style="background-image: url(<%= @result.image %>);">
+    <div class="show-image">
+      <span><%= image_tag @result.image %></span>
+    </div>
+    <p><%= @result.text %></p>
+    <p><%= @result.name %></p>
+    <ul class="show_list">
+        <li>
+          <%= link_to 'へんしゅう', edit_result_path(@result.id), method: :get %>
+        </li>
+        <li>
+          <%= link_to 'さくじょ', result_path(@result.id), method: :delete %>
+        </li>
+      </ul>
+  </div>
+</div>
