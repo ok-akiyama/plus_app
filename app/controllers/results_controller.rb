@@ -23,6 +23,8 @@ class ResultsController < ApplicationController
   end
 
   def destroy
+    result = Result.find(params[:id])
+    result.destroy
   end
 
   private
