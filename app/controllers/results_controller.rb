@@ -17,9 +17,12 @@ class ResultsController < ApplicationController
   end
 
   def edit
+    @result = Result.find(params[:id])
   end
 
   def update
+    result = Result.find(params[:id])
+    result.update(result_params)
   end
 
   def destroy
