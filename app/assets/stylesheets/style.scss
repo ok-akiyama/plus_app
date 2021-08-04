@@ -46,6 +46,13 @@ a{
 
 footer{
   text-align: center;
+  background-color: #FAF08A;
+  padding: 26px 0px;
+  box-shadow: 5px 10px 3px #856845;
+}
+
+footer a{
+  font-size: 2rem;
 }
 
 .grid{
@@ -210,4 +217,11 @@ p{
 
 .show-list{
   list-style: none;
+}
+
+.show-lists{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  color: #fc7ea0;
 }
