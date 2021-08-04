@@ -5,7 +5,8 @@
 
 body{
   width: 100vw;
-  height: 2000px;
+  height: 1500px;
+  position: relative;
 }
 
 header{
@@ -45,10 +46,13 @@ a{
 }
 
 footer{
+  width: 100%;
   text-align: center;
   background-color: #FAF08A;
   padding: 26px 0px;
   box-shadow: 5px 10px 3px #856845;
+  position: absolute;
+  bottom: 0;
 }
 
 footer a{
