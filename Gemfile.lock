@@ -84,6 +84,7 @@ GEM
       warden (~> 1.2.3)
     devise-i18n (1.10.0)
       devise (>= 4.8.0)
+    devise-i18n-views (0.3.7)
     erubi (1.10.0)
     ffi (1.15.3)
     globalid (0.5.1)
@@ -230,6 +231,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   devise
   devise-i18n
+  devise-i18n-views
   image_processing (~> 1.2)
   jbuilder (~> 2.7)
   listen (~> 3.2)
