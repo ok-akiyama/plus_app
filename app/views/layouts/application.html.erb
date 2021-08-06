@@ -48,10 +48,28 @@
         <div class="right-header">
           <% if user_signed_in? %>
             <%= link_to "ろぐあうと", destroy_user_session_path, method: :delete %>
-            <%= link_to "とうこう", new_tweet_path, class: "post" %>
+            <%= link_to "とうこう", new_result_path, class: "post" %>
         <% else %>
-            <%= link_to "ろぐいん", new_user_session_path, class: "post" %>
-            <%= link_to "とうろく", new_user_registration_path, class: "post" %>
+          <div class="log-in">
+          <a href="user/signin">
+          <div class="log-in-icon">
+          <i class="fas fa-sign-in-alt"></i>
+          </div>
+          <div class="log-in-logo">
+            <%= link_to "ろぐいん", new_user_session_path, class: "log-in-logo" %>
+          </div>
+          </a>
+          </div>
+          <div class="sign-up">
+          <a href="user/signup">
+          <div class="sign-up-icon">
+          <i class="fas fa-user-plus"></i>
+          </div>
+          <div class="sign-up-logo">
+            <%= link_to "とうろく", new_user_registration_path, class: "sign-up-logo" %>
+            </div>
+          </a>
+          </div>
         <% end %>
         </div>
       </div>

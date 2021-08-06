@@ -96,6 +96,46 @@ h2.logo span{
   width: 40vw;
 }
 
+.log-in{
+  display: block;
+}
+
+.log-in-icon{
+  display: flex;
+  justify-content: center;
+}
+
+.fa-sign-in-alt{
+  color: #DEC22A;
+  font-size: 1em;
+}
+
+.log-in-logo{
+  color: #DEC22A;
+  font-size: 20px;
+  vertical-align: top;
+}
+
+.sign-up{
+  display: block;
+}
+
+.sign-up-icon{
+  display: flex;
+  justify-content: center;
+}
+
+.fa-user-plus{
+  color: #F9A02F;
+  font-size: 1em;
+}
+
+.sign-up-logo{
+  color: #F9A02F;
+  font-size: 20px;
+  vertical-align: top;
+}
+
 footer{
   width: 100%;
   text-align: center;
