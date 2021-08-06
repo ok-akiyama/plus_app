@@ -1,5 +1,4 @@
 class ResultsController < ApplicationController
-
   def index
     @results = Result.all
   end
@@ -31,10 +30,8 @@ class ResultsController < ApplicationController
   end
 
   private
+
   def result_params
     params.require(:result).permit(:name, :image, :text)
   end
-
 end
-
-
