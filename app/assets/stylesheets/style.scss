@@ -5,16 +5,17 @@
 
 body{
   width: 100vw;
-  height: 1500px;
+  height: 150vw;
   position: relative;
+  
 }
 
 header{
   height: 80px;
   width: 100%;
   padding: 17px;
-  border-bottom: 0px solid #fcfaa6;
-  background-color: #FAF08A;
+  border-bottom: 0px solid white;
+  background-color: white;
   box-shadow: 5px 10px 3px #856845;
   z-index: 1;
   position: fixed;
@@ -22,6 +23,7 @@ header{
 
 a{
   font-size: xx-large;
+  text-decoration: none;
 }
 
 .wrapper{
@@ -35,8 +37,57 @@ a{
     height: 60px;
 }
 
-.logo{
+h2.logo span{
   width: 30vw;
+  font-size: 35px;
+  background: -webkit-linear-gradient(left, #ff26fb, #00b3ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 40px;
+}
+
+.center-header{
+  display: flex;
+  justify-content: space-around;
+  width: 40vw;
+}
+
+.plus{
+  display: block;
+}
+
+.plus-icon{
+  display: flex;
+  justify-content: center;
+}
+
+.fa-plus-circle{
+  color: #6FE6F2;
+  font-size: 1em;
+}
+
+.plus-logo{
+  color: #6FE6F2;
+  font-size: 17px;
+}
+
+.subtraction{
+  display: block;
+}
+
+.subtraction-icon{
+  display: flex;
+  justify-content: center;
+}
+
+.fa-minus-circle{
+  color: #A1F53A;
+  font-size: 1em;
+}
+
+.subtraction-logo{
+  color: #A1F53A;
+  font-size: 17px;
 }
 
 .right-header{
@@ -48,11 +99,15 @@ a{
 footer{
   width: 100%;
   text-align: center;
-  background-color: #FAF08A;
+  background-color: white;
   padding: 26px 0px;
   box-shadow: 5px 10px 3px #856845;
   position: absolute;
   bottom: 0;
+  color: white;
+  background-image: url(manbou.gif);
+  background-size: cover;
+  background-position: center 48%;
 }
 
 footer a{
@@ -60,20 +115,22 @@ footer a{
 }
 
 .grid{
-  display: grid;
-  width: 94vw;
-  margin: 30px 10px 20px 33px;
-  gap: 1vw;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    display: grid;
+    width: 94vw;
+    margin: 3vw auto 3vw;
+    gap: 1vw;
+    grid-template-columns: repeat(3, 27vw);
+    justify-content: center;
 }
 
 .grid-sub{
   display: grid;
-  width: 94vw;
-  margin: 3vw auto 3vw;
-  gap: 1vw;
-  grid-template-columns: repeat(4, 23vw);
-  grid-template-rows: repeat(4, 23vw);
+    width: 94vw;
+    margin: 3vw auto 3vw;
+    gap: 1vw;
+    grid-template-columns: repeat(4, 20vw);
+    grid-template-rows: repeat(4, 20vw);
+    justify-content: center;
 }
 
 .grid-big-top{

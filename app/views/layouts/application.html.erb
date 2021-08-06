@@ -22,10 +22,37 @@
   <div class="wrapper">
     <header>
       <div class="header-wrapper">
-        <a class="logo" >きっずぷらす</a>
+        <h2 class="logo"><span>きっずぷらす</span></h2>
+        <div class="center-header">
+          <div class="plus">
+          <a href="root_path">
+            <div class="plus-icon">
+              <i class="fas fa-plus-circle"></i>
+            </div>
+            <div class="plus-logo">
+              <h3>たしざん</h3>
+            </div>
+            </a>
+          </div>
+          <div class="subtraction">
+          <a href="user_path">
+            <div class="subtraction-icon">
+              <i class="fas fa-minus-circle"></i>
+            </div>
+            <div class="subtraction-logo">
+              <h3>ひきざん</h3>
+            </div>
+            </a>
+          </div>
+        </div>
         <div class="right-header">
-            <a>たしざん</a>
-            <a>ひきざん</a>
+          <% if user_signed_in? %>
+            <%= link_to "ろぐあうと", destroy_user_session_path, method: :delete %>
+            <%= link_to "とうこう", new_tweet_path, class: "post" %>
+        <% else %>
+            <%= link_to "ろぐいん", new_user_session_path, class: "post" %>
+            <%= link_to "とうろく", new_user_registration_path, class: "post" %>
+        <% end %>
         </div>
       </div>
     </header>
