@@ -5,16 +5,17 @@
 
 body{
   width: 100vw;
-  height: 1500px;
+  height: 150vw;
   position: relative;
+  background-color: #ABEBF5;
 }
 
 header{
   height: 80px;
   width: 100%;
   padding: 17px;
-  border-bottom: 0px solid #fcfaa6;
-  background-color: #FAF08A;
+  border-bottom: 0px solid white;
+  background-color: white;
   box-shadow: 5px 10px 3px #856845;
   z-index: 1;
   position: fixed;
@@ -22,6 +23,7 @@ header{
 
 a{
   font-size: xx-large;
+  text-decoration: none;
 }
 
 .wrapper{
@@ -35,8 +37,57 @@ a{
     height: 60px;
 }
 
-.logo{
+h2.logo{
   width: 30vw;
+  font-size: 35px;
+  background: -webkit-linear-gradient(left, #ff26fb, #00b3ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 40px;
+}
+
+.center-header{
+  display: flex;
+  justify-content: space-around;
+  width: 40vw;
+}
+
+.plus{
+  display: block;
+}
+
+.plus-icon{
+  display: flex;
+  justify-content: center;
+}
+
+.fa-plus-circle{
+  color: #6FE6F2;
+  font-size: 1em;
+}
+
+.plus-logo{
+  color: #6FE6F2;
+  font-size: 17px;
+}
+
+.subtraction{
+  display: block;
+}
+
+.subtraction-icon{
+  display: flex;
+  justify-content: center;
+}
+
+.fa-minus-circle{
+  color: #A1F53A;
+  font-size: 1em;
+}
+
+.subtraction-logo{
+  color: #A1F53A;
+  font-size: 17px;
 }
 
 .right-header{
@@ -45,14 +96,98 @@ a{
   width: 40vw;
 }
 
+.log-out{
+  display: block;
+}
+
+.log-out-icon{
+  display: flex;
+  justify-content: center;
+}
+
+.fa-sign-out-alt{
+  color: #DEC22A;
+  font-size: 1em;
+}
+
+.log-out-logo{
+  color: #DEC22A;
+  font-size: 20px;
+  vertical-align: top;
+}
+
+.post{
+  display: block;
+}
+
+.post-icon{
+  display: flex;
+  justify-content: center;
+}
+
+.fa-pen-square{
+  color: #F9A02F;
+  font-size: 1em;
+}
+
+.post-logo{
+  color: #F9A02F;
+  font-size: 20px;
+  vertical-align: top;
+}
+
+.log-in{
+  display: block;
+}
+
+.log-in-icon{
+  display: flex;
+  justify-content: center;
+}
+
+.fa-sign-in-alt{
+  color: #DEC22A;
+  font-size: 1em;
+}
+
+.log-in-logo{
+  color: #DEC22A;
+  font-size: 20px;
+  vertical-align: top;
+}
+
+.sign-up{
+  display: block;
+}
+
+.sign-up-icon{
+  display: flex;
+  justify-content: center;
+}
+
+.fa-user-plus{
+  color: #F9A02F;
+  font-size: 1em;
+}
+
+.sign-up-logo{
+  color: #F9A02F;
+  font-size: 20px;
+  vertical-align: top;
+}
+
 footer{
   width: 100%;
   text-align: center;
-  background-color: #FAF08A;
+  background-color: white;
   padding: 26px 0px;
   box-shadow: 5px 10px 3px #856845;
   position: absolute;
   bottom: 0;
+  color: white;
+  background-image: url(manbou.gif);
+  background-size: cover;
+  background-position: center 48%;
 }
 
 footer a{
@@ -60,20 +195,22 @@ footer a{
 }
 
 .grid{
-  display: grid;
-  width: 94vw;
-  margin: 30px 10px 20px 33px;
-  gap: 1vw;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    display: grid;
+    width: 94vw;
+    margin: 3vw auto 3vw;
+    gap: 1vw;
+    grid-template-columns: repeat(3, 27vw);
+    justify-content: center;
 }
 
 .grid-sub{
   display: grid;
-  width: 94vw;
-  margin: 3vw auto 3vw;
-  gap: 1vw;
-  grid-template-columns: repeat(4, 23vw);
-  grid-template-rows: repeat(4, 23vw);
+    width: 94vw;
+    margin: 3vw auto 3vw;
+    gap: 1vw;
+    grid-template-columns: repeat(4, 20vw);
+    grid-template-rows: repeat(4, 20vw);
+    justify-content: center;
 }
 
 .grid-big-top{
@@ -228,4 +365,68 @@ p{
   display: flex;
   justify-content: center;
   color: #fc7ea0;
+}
+
+.devise-form{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  align-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.field{
+  width: 150%;
+  height: 100px;
+}
+
+.devise-btn{
+  width: 150%;
+  height: 100px;
+}
+
+.main-done{
+  padding-top: 60px;
+  width: auto;
+  height: 20vh; 
+  display: flex;
+  justify-content: center;
+}
+
+.done-lists,
+.done-lists2{
+    list-style: none;
+    font-size: x-large;
+}
+
+.addcode{
+  padding: 8px;
+  display: inline-block;
+  width: 25px;
+  height: 10px;
+}
+
+input{
+  width: 5%;
+  margin: 5px 0 15px;
+  padding: 10px;
+  border: 1px solid #D8D8D8;
+  border-radius: 5px;
+  box-shadow: 5px 10px 3px #856845 inset;
+}
+
+input[type="button"] {
+  padding: 5px;
+  background-color: #FC7EA0;
+  border-radius: 20px;
+  color: #fff;
+  border: 0;
+  box-shadow: 5px 10px 3px #856845;
+}
+
+input[type="button"]:hover {
+  background-color: #FC7EA0;
+  box-shadow: 5px 10px 3px #856845;
 }
