@@ -7,7 +7,7 @@ body{
   width: 100vw;
   height: 150vw;
   position: relative;
-  
+  background-color: #ABEBF5;
 }
 
 header{
@@ -94,6 +94,46 @@ h2.logo span{
   display: flex;
   justify-content: space-around;
   width: 40vw;
+}
+
+.log-out{
+  display: block;
+}
+
+.log-out-icon{
+  display: flex;
+  justify-content: center;
+}
+
+.fa-sign-out-alt{
+  color: #DEC22A;
+  font-size: 1em;
+}
+
+.log-out-logo{
+  color: #DEC22A;
+  font-size: 20px;
+  vertical-align: top;
+}
+
+.post{
+  display: block;
+}
+
+.post-icon{
+  display: flex;
+  justify-content: center;
+}
+
+.fa-pen-square{
+  color: #F9A02F;
+  font-size: 1em;
+}
+
+.post-logo{
+  color: #F9A02F;
+  font-size: 20px;
+  vertical-align: top;
 }
 
 .log-in{

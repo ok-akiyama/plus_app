@@ -47,11 +47,29 @@
         </div>
         <div class="right-header">
           <% if user_signed_in? %>
-            <%= link_to "ろぐあうと", destroy_user_session_path, method: :delete %>
-            <%= link_to "とうこう", new_result_path, class: "post" %>
+          <div class="log-out">
+          <a href="/users/sign_out" method="DELETE">
+          <div class="log-out-icon">
+          <i class="fas fa-sign-out-alt"></i>
+          </div>
+          <div class="log-out-logo">
+            <%= link_to "ろぐあうと", destroy_user_session_path, method: :delete, class: "log-out-logo" %>
+            </div>
+            </a>
+            </div>
+            <div class="post">
+            <a href="/results/new" >
+            <div class="post-icon">
+            <i class="fas fa-pen-square"></i>
+            </div>
+            <div class="post-logo">
+            <%= link_to "とうこう", new_result_path, class: "post-logo" %>
+            </div>
+            </a>
+            </div>
         <% else %>
           <div class="log-in">
-          <a href="user/signin">
+          <a href="/users/sign_in">
           <div class="log-in-icon">
           <i class="fas fa-sign-in-alt"></i>
           </div>
@@ -61,7 +79,7 @@
           </a>
           </div>
           <div class="sign-up">
-          <a href="user/signup">
+          <a href="/users/sign_up">
           <div class="sign-up-icon">
           <i class="fas fa-user-plus"></i>
           </div>
