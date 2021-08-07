@@ -29,6 +29,12 @@ class ResultsController < ApplicationController
     result.destroy
   end
 
+  def addition
+  end
+
+  def subtraction
+  end
+
   private
 
   def result_params

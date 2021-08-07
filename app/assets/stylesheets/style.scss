@@ -37,7 +37,7 @@ a{
     height: 60px;
 }
 
-h2.logo span{
+h2.logo{
   width: 30vw;
   font-size: 35px;
   background: -webkit-linear-gradient(left, #ff26fb, #00b3ff);
@@ -385,4 +385,48 @@ p{
 .devise-btn{
   width: 150%;
   height: 100px;
+}
+
+.main-done{
+  padding-top: 60px;
+  width: auto;
+  height: 20vh; 
+  display: flex;
+  justify-content: center;
+}
+
+.done-lists,
+.done-lists2{
+    list-style: none;
+    font-size: x-large;
+}
+
+span{
+  padding: 8px;
+  display: inline-block;
+  width: 25px;
+  height: 10px;
+}
+
+input{
+  width: 5%;
+  margin: 5px 0 15px;
+  padding: 10px;
+  border: 1px solid #D8D8D8;
+  border-radius: 5px;
+  box-shadow: 5px 10px 3px #856845 inset;
+}
+
+input[type="button"] {
+  padding: 5px;
+  background-color: #FC7EA0;
+  border-radius: 20px;
+  color: #fff;
+  border: 0;
+  box-shadow: 5px 10px 3px #856845;
+}
+
+input[type="button"]:hover {
+  background-color: #FC7EA0;
+  box-shadow: 5px 10px 3px #856845;
 }
