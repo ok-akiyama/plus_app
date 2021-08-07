@@ -1,4 +1,6 @@
 class ResultsController < ApplicationController
+  before_action :set_results, only: [:edit, :show]
+
   def index
     @results = Result.all
   end
@@ -12,11 +14,9 @@ class ResultsController < ApplicationController
   end
 
   def show
-    @result = Result.find(params[:id])
   end
 
   def edit
-    @result = Result.find(params[:id])
   end
 
   def update
@@ -39,5 +39,9 @@ class ResultsController < ApplicationController
 
   def result_params
     params.require(:result).permit(:name, :image, :text)
+  end
+
+  def set_results
+    @result = Result.find(params[:id])
   end
 end
