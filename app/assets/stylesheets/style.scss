@@ -266,6 +266,14 @@ footer a{
   align-items: center;
 }
 
+.contents-image{
+  color: #856845;
+  font-size: xx-large;
+  input{
+    display: none;
+  }
+}
+
 form input,
 form textarea {
   width: 80%;
