@@ -19,81 +19,81 @@
   </head>
 
   <body>
-  <div class="wrapper">
-    <header>
-      <div class="header-wrapper">
-      <a href="/">
-        <h2 class="logo">きっずぷらす</h2>
-        </a>
-        <div class="center-header">
-          <div class="plus">
-          <a href="/results/addition">
-            <div class="plus-icon">
-              <i class="fas fa-plus-circle"></i>
+    <div class="wrapper">
+      <header>
+        <div class="header-wrapper">
+          <a href="/">
+            <h2 class="logo">きっずぷらす</h2>
+          </a>
+          <div class="center-header">
+            <div class="plus">
+            <a href="/results/addition">
+              <div class="plus-icon">
+                <i class="fas fa-plus-circle"></i>
+              </div>
+              <div class="plus-logo">
+                <h3>たしざん</h3>
+              </div>
+              </a>
             </div>
-            <div class="plus-logo">
-              <h3>たしざん</h3>
+            <div class="subtraction">
+            <a href="/results/subtraction">
+              <div class="subtraction-icon">
+                <i class="fas fa-minus-circle"></i>
+              </div>
+              <div class="subtraction-logo">
+                <h3>ひきざん</h3>
+              </div>
+              </a>
             </div>
-            </a>
           </div>
-          <div class="subtraction">
-          <a href="/results/subtraction">
-            <div class="subtraction-icon">
-              <i class="fas fa-minus-circle"></i>
-            </div>
-            <div class="subtraction-logo">
-              <h3>ひきざん</h3>
-            </div>
-            </a>
+          <div class="right-header">
+            <% if user_signed_in? %>
+              <div class="log-out">
+                <a href="/users/sign_out" method="DELETE">
+                  <div class="log-out-icon">
+                    <i class="fas fa-sign-out-alt"></i>
+                  </div>
+                  <div class="log-out-logo">
+                    <%= link_to "ろぐあうと", destroy_user_session_path, method: :delete, class: "log-out-logo" %>
+                  </div>
+                </a>
+              </div>
+              <div class="post">
+                <a href="/results/new" >
+                  <div class="post-icon">
+                    <i class="fas fa-pen-square"></i>
+                  </div>
+                  <div class="post-logo">
+                    <%= link_to "とうこう", new_result_path, class: "post-logo" %>
+                  </div>
+                </a>
+              </div>
+            <% else %>
+              <div class="log-in">
+                <a href="/users/sign_in">
+                  <div class="log-in-icon">
+                    <i class="fas fa-sign-in-alt"></i>
+                  </div>
+                  <div class="log-in-logo">
+                    <%= link_to "ろぐいん", new_user_session_path, class: "log-in-logo" %>
+                  </div>
+                </a>
+              </div>
+              <div class="sign-up">
+                <a href="/users/sign_up">
+                  <div class="sign-up-icon">
+                    <i class="fas fa-user-plus"></i>
+                  </div>
+                  <div class="sign-up-logo">
+                    <%= link_to "とうろく", new_user_registration_path, class: "sign-up-logo" %>
+                  </div>
+                </a>
+              </div>
+            <% end %>
           </div>
         </div>
-        <div class="right-header">
-          <% if user_signed_in? %>
-          <div class="log-out">
-          <a href="/users/sign_out" method="DELETE">
-          <div class="log-out-icon">
-          <i class="fas fa-sign-out-alt"></i>
-          </div>
-          <div class="log-out-logo">
-            <%= link_to "ろぐあうと", destroy_user_session_path, method: :delete, class: "log-out-logo" %>
-            </div>
-            </a>
-            </div>
-            <div class="post">
-            <a href="/results/new" >
-            <div class="post-icon">
-            <i class="fas fa-pen-square"></i>
-            </div>
-            <div class="post-logo">
-            <%= link_to "とうこう", new_result_path, class: "post-logo" %>
-            </div>
-            </a>
-            </div>
-        <% else %>
-          <div class="log-in">
-          <a href="/users/sign_in">
-          <div class="log-in-icon">
-          <i class="fas fa-sign-in-alt"></i>
-          </div>
-          <div class="log-in-logo">
-            <%= link_to "ろぐいん", new_user_session_path, class: "log-in-logo" %>
-          </div>
-          </a>
-          </div>
-          <div class="sign-up">
-          <a href="/users/sign_up">
-          <div class="sign-up-icon">
-          <i class="fas fa-user-plus"></i>
-          </div>
-          <div class="sign-up-logo">
-            <%= link_to "とうろく", new_user_registration_path, class: "sign-up-logo" %>
-            </div>
-          </a>
-          </div>
-        <% end %>
-        </div>
-      </div>
-    </header>
+      </header>
     </div>
     <%= yield %>
     <footer>
