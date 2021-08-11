@@ -1,5 +1,5 @@
 class ResultsController < ApplicationController
-  before_action :set_results, only: [:edit, :show]
+  before_action :set_results, only: [:edit, :show, :update]
 
   def index
     @results = Result.all
@@ -10,7 +10,12 @@ class ResultsController < ApplicationController
   end
 
   def create
-    Result.create(result_params)
+    @result = Result.create(result_params)
+    if @result.save
+      redirect_to results_path
+    else
+      render :new
+    end
   end
 
   def show
@@ -20,8 +25,11 @@ class ResultsController < ApplicationController
   end
 
   def update
-    result = Result.find(params[:id])
-    result.update(result_params)
+    if @result.update(result_params)
+      redirect_to result_path
+    else
+      render :edit
+    end
   end
 
   def destroy

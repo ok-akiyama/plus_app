@@ -266,6 +266,14 @@ footer a{
   align-items: center;
 }
 
+.contents-image{
+  color: #856845;
+  font-size: xx-large;
+  input{
+    display: none;
+  }
+}
+
 form input,
 form textarea {
   width: 80%;
@@ -401,7 +409,7 @@ p{
     font-size: x-large;
 }
 
-.addcode{
+.add-code{
   padding: 8px;
   display: inline-block;
   width: 25px;

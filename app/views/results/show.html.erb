@@ -6,12 +6,12 @@
     <p><%= @result.text %></p>
     <p><%= @result.name %></p>
     <ul class="show-list">
-        <li>
-          <%= link_to 'かきなおす', edit_result_path(@result.id), class:"show-lists", method: :get %>
-        </li>
-        <li>
-          <%= link_to 'けす', result_path(@result.id), class:"show-lists", method: :delete %>
-        </li>
-      </ul>
+      <li>
+        <%= link_to 'かきなおす', edit_result_path(@result.id), class:"show-lists", method: :get %>
+      </li>
+      <li>
+        <%= link_to 'けす', result_path(@result.id), class:"show-lists", method: :delete %>
+      </li>
+    </ul>
   </div>
 </div>
