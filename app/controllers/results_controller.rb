@@ -1,5 +1,5 @@
 class ResultsController < ApplicationController
-  before_action :set_results, only: [:edit, :show]
+  before_action :set_results, only: [:edit, :show, :update]
 
   def index
     @results = Result.all
@@ -25,7 +25,6 @@ class ResultsController < ApplicationController
   end
 
   def update
-    @result = Result.find(params[:id])
     if @result.update(result_params)
       redirect_to result_path
     else
