@@ -1,7 +1,7 @@
 <div class="contents">
     <h3 class="contents-title">みんなにみせる</h3>
     <%= form_with(model: @result, class:"contents-form",local: true) do |form| %>
-    <%= render 'shared/error_messages', model: form.object %>
+      <%= render 'shared/error_messages', model: form.object %>
       <%= form.text_field :name, placeholder: "にっくねーむをいれてね", class:"contents-name" %>
       <label class="contents-image">
       <%= form.file_field :image, id:"item-image", class:"contents-image" %>
