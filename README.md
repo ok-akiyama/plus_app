@@ -5,9 +5,10 @@
 数字を自分で入力し答えのボタンを押すことで足し算・引き算の計算が出来、投稿機能で画像付きで好きな投稿が出来ます。
 
 # DEMO
-
+### トップページ
 [![Image from Gyazo](https://i.gyazo.com/30def333f4899dc9b050958979cf98b9.gif)](https://gyazo.com/30def333f4899dc9b050958979cf98b9)  
 
+### 計算ページ
 [![Image from Gyazo](https://i.gyazo.com/c88c011b10fd9a2afd6e1d28deb0aa43.gif)](https://gyazo.com/c88c011b10fd9a2afd6e1d28deb0aa43)  
 
 
