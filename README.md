@@ -7,7 +7,7 @@
 # DEMO
 ### トップページ
 <!-- [![Image from Gyazo](https://i.gyazo.com/be48d604f5081fa5e99e48f9c4fa4641.gif)](https://gyazo.com/be48d604f5081fa5e99e48f9c4fa4641) -->
-[![Image from Gyazo](https://i.gyazo.com/1a8fff5e97b63b8a5fec942404acd0b8.gif)](https://gyazo.com/1a8fff5e97b63b8a5fec942404acd0b8)
+[![Image from Gyazo](https://i.gyazo.com/2d03a49da94a756b063a197be910ba93.gif)](https://gyazo.com/2d03a49da94a756b063a197be910ba93)
 ### 計算ページ
 ![add-image](https://i.gyazo.com/c88c011b10fd9a2afd6e1d28deb0aa43.gif)  
 
