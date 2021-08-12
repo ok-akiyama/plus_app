@@ -6,7 +6,7 @@
 
 # DEMO
 ### トップページ
-![top-image](https://i.gyazo.com/30def333f4899dc9b050958979cf98b9.gif)  
+[![Image from Gyazo](https://i.gyazo.com/13102426d312672bdc0c7a1171709fd4.gif)](https://gyazo.com/13102426d312672bdc0c7a1171709fd4)  
 
 ### 計算ページ
 ![add-image](https://i.gyazo.com/c88c011b10fd9a2afd6e1d28deb0aa43.gif)  
@@ -60,7 +60,7 @@ http://plus-app-36077.herokuapp.com/
 
 # ローカルでの動作方法
 https://github.com/ok-akiyama/plus_app.git  
-Ruby 2.6.5
-Ruby on rails version 6.0.4
-MYSQL 5.6.51
-heroku 7.56.1
+Ruby 2.6.5  
+Ruby on rails version 6.0.4  
+MYSQL 5.6.51  
+heroku 7.56.1  
