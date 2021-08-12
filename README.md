@@ -6,10 +6,10 @@
 
 # DEMO
 ### トップページ
-[![Image from Gyazo](https://i.gyazo.com/30def333f4899dc9b050958979cf98b9.gif)](https://gyazo.com/30def333f4899dc9b050958979cf98b9)  
+![top-image](https://i.gyazo.com/30def333f4899dc9b050958979cf98b9.gif)  
 
 ### 計算ページ
-[![Image from Gyazo](https://i.gyazo.com/c88c011b10fd9a2afd6e1d28deb0aa43.gif)](https://gyazo.com/c88c011b10fd9a2afd6e1d28deb0aa43)  
+![add-image](https://i.gyazo.com/c88c011b10fd9a2afd6e1d28deb0aa43.gif)  
 
 
 # URL
