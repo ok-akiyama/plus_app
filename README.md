@@ -52,12 +52,12 @@ http://plus-app-36077.herokuapp.com/
 <br><br><br>
 
 ## 投稿機能
-[![Image from Gyazo](https://i.gyazo.com/2c964d5f624fbee11c6d36e6340d975d.png)](https://gyazo.com/2c964d5f624fbee11c6d36e6340d975d)
+[![Image from Gyazo](https://i.gyazo.com/2c964d5f624fbee11c6d36e6340d975d.png)](https://gyazo.com/2c964d5f624fbee11c6d36e6340d975d)  
 名前・画像・テキストを入力することでトップページに反映されます
 <br><br><br>
   
 ## 詳細表示機能
-[![Image from Gyazo](https://i.gyazo.com/5e78c659e8e0959ca215b040b5b448e8.gif)](https://gyazo.com/5e78c659e8e0959ca215b040b5b448e8)
+[![Image from Gyazo](https://i.gyazo.com/5e78c659e8e0959ca215b040b5b448e8.gif)](https://gyazo.com/5e78c659e8e0959ca215b040b5b448e8)  
 トップページで画像にカーソルを合わせることで画像が動き、クリックする事で詳細を表示する事が出来ます。
 <br><br><br>
 
