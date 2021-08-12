@@ -7,7 +7,7 @@
 
 # DEMO
 ## トップページ
-[![Image from Gyazo](https://i.gyazo.com/e97114365969272713284f807f4bb9b2.gif)](https://gyazo.com/e97114365969272713284f807f4bb9b2)<br>
+[![Image from Gyazo](https://i.gyazo.com/da6554d7396c4e50bac6d4901761a08b.gif)](https://gyazo.com/da6554d7396c4e50bac6d4901761a08b)
 <br><br><br>
 
 ## 計算ページ
