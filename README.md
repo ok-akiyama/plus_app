@@ -6,20 +6,20 @@
 
 # DEMO
 
-[![Image from Gyazo](https://i.gyazo.com/30def333f4899dc9b050958979cf98b9.gif)](https://gyazo.com/30def333f4899dc9b050958979cf98b9)
+[![Image from Gyazo](https://i.gyazo.com/30def333f4899dc9b050958979cf98b9.gif)](https://gyazo.com/30def333f4899dc9b050958979cf98b9)  
 
-[![Image from Gyazo](https://i.gyazo.com/c88c011b10fd9a2afd6e1d28deb0aa43.gif)](https://gyazo.com/c88c011b10fd9a2afd6e1d28deb0aa43)
+[![Image from Gyazo](https://i.gyazo.com/c88c011b10fd9a2afd6e1d28deb0aa43.gif)](https://gyazo.com/c88c011b10fd9a2afd6e1d28deb0aa43)  
 
 
 # URL
 http://plus-app-36077.herokuapp.com/
 
 # BASIC認証
-ユーザー名：admin
+ユーザー名：admin  
 パスワード：2222
 
 # テスト用アカウント
-ユーザー名：test@test
+ユーザー名：test@test  
 パスワード：123asd
 
 # 利用方法
@@ -41,7 +41,7 @@ http://plus-app-36077.herokuapp.com/
 足し算と引き算機能があり、ボックスに数字を入れて答えボタンを押す事で計算結果を表示する事が出来ます。 
 
 ## 投稿機能
-[![Image from Gyazo](https://i.gyazo.com/ecb38a5250ae3f198c1285eb97712147.gif)](https://gyazo.com/ecb38a5250ae3f198c1285eb97712147)
+[![Image from Gyazo](https://i.gyazo.com/ecb38a5250ae3f198c1285eb97712147.gif)](https://gyazo.com/ecb38a5250ae3f198c1285eb97712147)  
 名前・画像・テキストを入力することでトップページに反映されます
   
 ## 詳細表示機能
