@@ -6,7 +6,7 @@
 
 # DEMO
 ### トップページ
-[![Image from Gyazo](https://i.gyazo.com/47b53232397ac94b7659609ee18a01bb.png)](https://gyazo.com/47b53232397ac94b7659609ee18a01bb)
+[![Image from Gyazo](https://i.gyazo.com/be48d604f5081fa5e99e48f9c4fa4641.gif)](https://gyazo.com/be48d604f5081fa5e99e48f9c4fa4641)
 
 ### 計算ページ
 ![add-image](https://i.gyazo.com/c88c011b10fd9a2afd6e1d28deb0aa43.gif)  
