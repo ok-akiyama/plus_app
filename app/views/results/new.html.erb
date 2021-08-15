@@ -7,6 +7,7 @@
       <%= form.file_field :image, id:"item-image", class:"contents-image" %>
       <i class="fas fa-camera-retro">←おすとしゃしんがえらべるよ</i>
       </label>
+       <div id="image-list"></div>
       <%= form.text_area :text, placeholder: "とうこうしたいことばをいれてね", rows: "10", class:"contents-text" %>
       <%= form.submit "ぜんぶいれたらおしてね", class:"contents-btn" %>
     <% end %>
