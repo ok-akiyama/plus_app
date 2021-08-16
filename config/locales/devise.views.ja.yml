@@ -26,6 +26,10 @@ ja:
         password: "パスワード"
         password_confirmation: "もういちどパスワード"
         remember_me: "次回から自動的にログイン"
+      result:
+        name: "にっくねーむ"
+        text: "もじ"
+        image: "しゃしん"
     models:
       user: "ユーザ"
   devise:
