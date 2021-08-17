@@ -194,6 +194,192 @@ footer a{
   font-size: 2rem;
 }
 
+@media (max-width: 1024px) {
+  header{
+    height: 80px;
+    width: 100%;
+    padding: 17px;
+    border-bottom: 0px solid white;
+    background-color: white;
+    box-shadow: 5px 10px 3px #856845;
+    z-index: 1;
+    position: fixed;
+  }
+  
+  a{
+    font-size: xx-large;
+    text-decoration: none;
+  }
+  
+  .wrapper{
+    height: 60px;
+  }
+  
+  .header-wrapper{
+    display: flex;
+      justify-content: space-between;
+      width: 100%;
+      height: 60px;
+  }
+  
+  h2.logo{
+    width: 30vw;
+    font-size: 35px;
+    background: -webkit-linear-gradient(left, #ff26fb, #00b3ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 40px;
+  }
+  
+  .center-header{
+    display: flex;
+    justify-content: space-around;
+    width: 40vw;
+  }
+  
+  .plus{
+    display: block;
+  }
+  
+  .plus-icon{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fa-plus-circle{
+    color: #6FE6F2;
+    font-size: 1em;
+  }
+  
+  .plus-logo{
+    color: #6FE6F2;
+    font-size: 17px;
+  }
+  
+  .subtraction{
+    display: block;
+  }
+  
+  .subtraction-icon{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fa-minus-circle{
+    color: #A1F53A;
+    font-size: 1em;
+  }
+  
+  .subtraction-logo{
+    color: #A1F53A;
+    font-size: 17px;
+  }
+  
+  .right-header{
+    display: flex;
+    justify-content: space-around;
+    width: 40vw;
+  }
+  
+  .log-out{
+    display: block;
+  }
+  
+  .log-out-icon{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fa-sign-out-alt{
+    color: #DEC22A;
+    font-size: 1em;
+  }
+  
+  .log-out-logo{
+    color: #DEC22A;
+    font-size: 20px;
+    vertical-align: top;
+  }
+  
+  .post{
+    display: block;
+  }
+  
+  .post-icon{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fa-pen-square{
+    color: #F9A02F;
+    font-size: 1em;
+  }
+  
+  .post-logo{
+    color: #F9A02F;
+    font-size: 20px;
+    vertical-align: top;
+  }
+  
+  .log-in{
+    display: block;
+  }
+  
+  .log-in-icon{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fa-sign-in-alt{
+    color: #DEC22A;
+    font-size: 1em;
+  }
+  
+  .log-in-logo{
+    color: #DEC22A;
+    font-size: 20px;
+    vertical-align: top;
+  }
+  
+  .sign-up{
+    display: block;
+  }
+  
+  .sign-up-icon{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fa-user-plus{
+    color: #F9A02F;
+    font-size: 1em;
+  }
+  
+  .sign-up-logo{
+    color: #F9A02F;
+    font-size: 20px;
+    vertical-align: top;
+  }
+  
+  footer{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding: 26px 0px;
+    box-shadow: 5px 10px 3px #856845;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background-image: url(manbou.gif);
+    background-size: cover;
+    background-position: center 48%;
+  }
+  
+  footer a{
+    font-size: 2rem;
+  }
+}
+
 .grid{
     display: grid;
     width: 94vw;
