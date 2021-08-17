@@ -382,7 +382,7 @@ footer a{
 
 @media (max-width: 599px) {
   header{
-    height: 80px;
+    height: 60px;
     width: 100%;
     padding: 17px;
     border-bottom: 0px solid white;
@@ -409,12 +409,13 @@ footer a{
   }
   
   h2.logo{
-    width: 30vw;
-    font-size: 35px;
+    width: 21vw;
+    font-size: 0.45em;
     background: -webkit-linear-gradient(left, #ff26fb, #00b3ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding-left: 40px;
+    padding-left: 0px;
+    padding-top: 5px;
   }
   
   .center-header{
@@ -434,12 +435,12 @@ footer a{
   
   .fa-plus-circle{
     color: #6FE6F2;
-    font-size: 1em;
+    font-size: 0.5em;
   }
   
   .plus-logo{
     color: #6FE6F2;
-    font-size: 17px;
+    font-size: 13px;
   }
   
   .subtraction{
@@ -453,12 +454,12 @@ footer a{
   
   .fa-minus-circle{
     color: #A1F53A;
-    font-size: 1em;
+    font-size: 0.5em;
   }
   
   .subtraction-logo{
     color: #A1F53A;
-    font-size: 17px;
+    font-size: 13px;
   }
   
   .right-header{
@@ -478,12 +479,12 @@ footer a{
   
   .fa-sign-out-alt{
     color: #DEC22A;
-    font-size: 1em;
+    font-size: 0.5em;
   }
   
   .log-out-logo{
     color: #DEC22A;
-    font-size: 20px;
+    font-size: 13px;
     vertical-align: top;
   }
   
@@ -498,12 +499,12 @@ footer a{
   
   .fa-pen-square{
     color: #F9A02F;
-    font-size: 1em;
+    font-size: 0.5em;
   }
   
   .post-logo{
     color: #F9A02F;
-    font-size: 20px;
+    font-size: 13px;
     vertical-align: top;
   }
   
@@ -518,12 +519,12 @@ footer a{
   
   .fa-sign-in-alt{
     color: #DEC22A;
-    font-size: 1em;
+    font-size: 0.5em;
   }
   
   .log-in-logo{
     color: #DEC22A;
-    font-size: 20px;
+    font-size: 13px;
     vertical-align: top;
   }
   
@@ -538,12 +539,12 @@ footer a{
   
   .fa-user-plus{
     color: #F9A02F;
-    font-size: 1em;
+    font-size: 0.5em;
   }
   
   .sign-up-logo{
     color: #F9A02F;
-    font-size: 20px;
+    font-size: 13px;
     vertical-align: top;
   }
   
