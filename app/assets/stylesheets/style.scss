@@ -611,6 +611,28 @@ footer a{
   .fa-pencil-alt {
     width: 70%;
   }
+
+  .main-done{
+    padding-top: 60px;
+    width: auto;
+    height: 20vh; 
+    display: flex;
+    justify-content: center;
+  }
+  
+  .done-lists,
+  .done-lists2{
+      list-style: none;
+      font-size: large;
+  }
+  
+  .add-code{
+    padding: 8px;
+    display: inline-block;
+    width: 25px;
+    height: 10px;
+  }
+  
 }
 
 .contents{
@@ -689,7 +711,7 @@ p{
 }
 
 input{
-  width: 8%;
+  width: 15%;
   height: 35px;
   margin: 5px 0 15px;
   padding: 10px;
